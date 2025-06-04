@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Saurav Kumar, PhD"
+title                    : "Saurav Kumar"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -23,7 +23,7 @@ repository               : "sauravk-RI/sauravk-RI.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Saurav Kumar"
+  name             : "Saurav Kumar, PhD"
   pronouns         : # example: "she/her"  
   bio              : "Assistant Professor at UWF and <br> Research Scientist at IHMC"
   interests        : "Robotics, Control, Wearable Robotics, Prosthetic Legs, Machine Learning"
