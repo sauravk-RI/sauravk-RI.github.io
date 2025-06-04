@@ -25,11 +25,10 @@ author:
   avatar           : "profile.png"
   name             : "Saurav Kumar"
   pronouns         : # example: "she/her"  
-  bio              : "Assistant Professor at UWF <br> Research Scientist at IHMC"
+  bio              : "Assistant Professor at UWF and <br> Research Scientist at IHMC"
   interests        : "Robotics, Control, Wearable Robotics, Prosthetic Legs, Machine Learning"
   location         : "Pensacola, FL, USA"
-  employer         : "University of West Florida"
-  employer         : "Institute for Human and Machine Cognition (IHMC)"
+  employer         : "University of West Florida and IHMC"
   uri              : # URL
   email            : "sauravk@ieee.org" 
 
