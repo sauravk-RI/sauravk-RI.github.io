@@ -11,9 +11,8 @@ redirect_from:
 Hi! My name is Saurav Kumar. I'll be joining as an Assistant Professor at the [University of West Florida](https://uwf.edu/) in the [Department of Intelligent Systems and Robotics](https://uwf.edu/intelligent-systems-and-robotics/), starting Fall 2025. Prior to this, I was a research scientist at the [University of Texas at Arlington Research Institute] and a postdoctoral fellow at the Robotics Institute at Carnegie Mellon University. I received my PhD in Electrical Engineering under the supervision of Dr. Nicholas Gans and Dr. Robert D. Gregg at the [University of Texas at Dallas](https://www.utdallas.edu/) (2020). I received the M. Tech degree in Robotics and Artificial Intelligence from [Indian Institute of Information Technology, Allahabad](http://iiita.ac.in/) (2015) and a BS degree in Electronics and Communication Engineering from Visvesvaraya Technological University (2012).
 
 ## Research Interests
------
 
-<img src="/images/research_interests.png" alt="Saurav Kumar" class="no-lightbox" style="float: right; margin: 0 0 16px 16px; max-width: 500px; border-radius: 2px; pointer-events: none;">
+<img src="/images/research_interests.png" alt="Saurav Kumar" class="no-lightbox" style="display: block; margin: 0 auto 16px auto; max-width: 500px; border-radius: 2px; pointer-events: none;">
 
 My research focus is at the intersection of robotics, control theory, biomechanics, and rehabilitation. I am interested in the control of powered lower-limb rehabilitation and assistive robots that can restore locomotion for people with reduced mobility. The development of novel control frameworks that generalize across users and locomotion activities will be critical to improving the lives of nearly 2 million people living with limb loss, 6 million stroke survivors in the U.S., and our aging population.
 
