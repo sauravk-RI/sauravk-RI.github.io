@@ -25,7 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "Saurav Kumar"
   pronouns         : # example: "she/her"  
-  bio              : "Assistant Professor at the University of West Florida and Research Scientist at the Institute for Human and Machine Cognition (IHMC). I am a researcher in the field of Robotics and AI, with a focus on human-robot interaction, machine learning, and cognitive robotics. My work aims to develop intelligent systems that can understand and adapt to human behavior, enhancing collaboration between humans and robots."
+  bio: |
+    Assistant Professor at the University of West Florida,
+    Research Scientist at the Institute for Human and Machine Cognition (IHMC).
   interests        : "Robotics, Control, Wearable Robotics, Prosthetic Legs, Cognitive Robotics"
   location         : "Pensacola, Florida, USA"
   employer         : "University of West Florida and IHMC"
