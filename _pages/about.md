@@ -1,11 +1,29 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me and My Research "
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+Hi! My name is Saurav Kumar. I'll be joining as an Assistant Professor at the [University of West Florida](https://uwf.edu/) in the [Department of Intelligent Systems and Robotics](https://uwf.edu/intelligent-systems-and-robotics/), starting Fall 2025. Prior to this, I was a research scientist at the [University of Texas at Arlington Research Institute] and a postdoctoral fellow at the Robotics Institute at Carnegie Mellon University. I received my PhD in Electrical Engineering under the supervision of Dr. Nicholas Gans and Dr. Robert D. Gregg at the [University of Texas at Dallas](https://www.utdallas.edu/) (2020). I received the M. Tech degree in Robotics and Artificial Intelligence from [Indian Institute of Information Technology, Allahabad](http://iiita.ac.in/), India (2015) and a BS degree in Electronics and Communication Engineering from Visvesvaraya Technological University (2012). 
+
+## Research Interests
+
+<table>
+  <tr>
+    <td style="vertical-align:top; width:60%">
+      My research focus is at the intersection of robotics, control theory, biomechanics, and rehabilitation. I am interested in the control of powered lower-limb rehabilitation and assistive robots that can restore locomotion for people with reduced mobility. The development of novel control frameworks that generalize across users and locomotion activities will be critical to improving the lives of nearly 2 million people living with limb loss, 6 million stroke survivors in the U.S., and our aging population. 
+
+      During my postdoc, I worked on developing a robust and adaptive model of a spring-loaded inverted pendulum capable of traversing terrains with varying slopes, including stairs of different inclinations. This model could serve as a model-based predictor for lower-limb wearable robots, enabling the assessment of  stability of generated motions. Concurrently, I collaborated with a PhD student to create machine learning models for an extensive predictor, capable of  forecasting swing leg motions during steady and transitional walking. During my PhD, I developed a theoretical control framework for lower-limb wearable robots that enables them to adapt to changing walking conditions while ensuring stability of the closed-loop dynamical system. 
+    </td>
+    <td style="vertical-align:top; width:40%">
+      <img src="/images/research_interests.png" alt="Saurav Kumar" style="max-width:100%; border-radius:8px;">
+      <!-- Adjust the image path and style as needed -->
+    </td>
+  </tr>
+</table>
 
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
