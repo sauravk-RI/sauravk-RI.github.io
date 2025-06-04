@@ -7,9 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Hi! My name is Saurav Kumar. I'll be joining as an Assistant Professor at the [University of West Florida](https://uwf.edu/) in the [Department of Intelligent Systems and Robotics](https://uwf.edu/intelligent-systems-and-robotics/), starting Fall 2025. Prior to this, I was a research scientist at the [University of Texas at Arlington Research Institute] and a postdoctoral fellow at the Robotics Institute at Carnegie Mellon University. I received my PhD in Electrical Engineering under the supervision of Dr. Nicholas Gans and Dr. Robert D. Gregg at the [University of Texas at Dallas](https://www.utdallas.edu/) (2020). I received the M. Tech degree in Robotics and Artificial Intelligence from [Indian Institute of Information Technology, Allahabad](http://iiita.ac.in/), India (2015) and a BS degree in Electronics and Communication Engineering from Visvesvaraya Technological University (2012). 
+<div style="text-align: justify;">
+<p>Hi! My name is Saurav Kumar. I'll be joining as an Assistant Professor at the [University of West Florida](https://uwf.edu/) in the [Department of Intelligent Systems and Robotics](https://uwf.edu/intelligent-systems-and-robotics/), starting Fall 2025. Prior to this, I was a research scientist at the [University of Texas at Arlington Research Institute] and a postdoctoral fellow at the Robotics Institute at Carnegie Mellon University. I received my PhD in Electrical Engineering under the supervision of Dr. Nicholas Gans and Dr. Robert D. Gregg at the [University of Texas at Dallas](https://www.utdallas.edu/) (2020). I received the M. Tech degree in Robotics and Artificial Intelligence from [Indian Institute of Information Technology, Allahabad](http://iiita.ac.in/) (2015) and a BS degree in Electronics and Communication Engineering from Visvesvaraya Technological University (2012).</p>
 
-## Research Interests
+Research Interests
+-----
 
 <img src="/images/research_interests.png" alt="Saurav Kumar" class="no-lightbox" style="float: right; margin: 0 0 16px 16px; max-width: 500px; border-radius: 2px; pointer-events: none;">
 
