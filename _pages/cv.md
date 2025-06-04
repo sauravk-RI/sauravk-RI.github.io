@@ -10,3 +10,5 @@ redirect_from:
 {% include base_path %}
 
 <embed src="/files/CV_Kumar.pdf" type="application/pdf" />
+
+Download CV (/files/CV_Kumar.pdf)
