@@ -41,7 +41,7 @@ author:
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-2253-0462"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : "https://www.researchgate.net/profile/Saurav-Kumar-4"
   scopus           : # URL
 
