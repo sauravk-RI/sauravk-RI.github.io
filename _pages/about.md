@@ -11,15 +11,13 @@ Hi! My name is Saurav Kumar. I'll be joining as an Assistant Professor at the [U
 
 ## Research Interests
 
-<img src="/images/research_interests.png" alt="Saurav Kumar" style="float: right; margin: 0 0 16px 16px; max-width: 500px; border-radius: 2px;">
+<img src="/images/research_interests.png" alt="Saurav Kumar" class="no-lightbox" style="float: right; margin: 0 0 16px 16px; max-width: 500px; border-radius: 2px; pointer-events: none;">
 
 <div style="text-align: justify;">
 <p>My research focus is at the intersection of robotics, control theory, biomechanics, and rehabilitation. I am interested in the control of powered lower-limb rehabilitation and assistive robots that can restore locomotion for people with reduced mobility. The development of novel control frameworks that generalize across users and locomotion activities will be critical to improving the lives of nearly 2 million people living with limb loss, 6 million stroke survivors in the U.S., and our aging population.</p>
 
 <p>During my postdoc, I worked on developing a robust and adaptive model of a spring-loaded inverted pendulum capable of traversing terrains with varying slopes, including stairs of different inclinations. This model could serve as a model-based predictor for lower-limb wearable robots, enabling the assessment of stability of generated motions. Concurrently, I collaborated with a PhD student to create machine learning models for an extensive predictor, capable of forecasting swing leg motions during steady and transitional walking. During my PhD, I developed a theoretical control framework for lower-limb wearable robots that enables them to adapt to changing walking conditions while ensuring stability of the closed-loop dynamical system.</p>
 </div>
-
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
 A data-driven personal website
 ======
