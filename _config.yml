@@ -26,10 +26,10 @@ author:
   name             : "Saurav Kumar"
   pronouns         : # example: "she/her"  
   bio: |
-    Assistant Professor at the University of West Florida,  
+    Assistant Professor at the University of West Florida,<br>
     Research Scientist at the Institute for Human and Machine Cognition (IHMC).
   interests        : "Robotics, Control, Wearable Robotics, Prosthetic Legs, Machine Learning"
-  location         : "Pensacola, Florida, USA"
+  location         : "Pensacola, FL, USA"
   employer         : "University of West Florida and IHMC"
   uri              : # URL
   email            : "sauravk@ieee.org" 
