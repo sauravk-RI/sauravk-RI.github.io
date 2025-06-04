@@ -11,7 +11,7 @@ Hi! My name is Saurav Kumar. I'll be joining as an Assistant Professor at the [U
 
 ## Research Interests
 
-<img src="/images/research_interests.png" alt="Saurav Kumar" style="float: right; margin: 0 0 16px 32px; max-width: 300px; border-radius: 8px;">
+<img src="/images/research_interests.png" alt="Saurav Kumar" style="float: right; margin: 0 0 16px 16px; max-width: 500px; border-radius: 2px;">
 
 My research focus is at the intersection of robotics, control theory, biomechanics, and rehabilitation. I am interested in the control of powered lower-limb rehabilitation and assistive robots that can restore locomotion for people with reduced mobility. The development of novel control frameworks that generalize across users and locomotion activities will be critical to improving the lives of nearly 2 million people living with limb loss, 6 million stroke survivors in the U.S., and our aging population.
 
