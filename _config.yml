@@ -227,6 +227,8 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  videos:
+    output: true
 
 
 # These settings control how pages and collections are included in the site
