@@ -6,28 +6,57 @@ author_profile: true
 ---
 
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+{% if author.googlescholar %}
+  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
+{% include base_path %}
+
+{% for post in site.publications reversed %}
+  {%if post.publication_type == 'phdthesis'%}
+<h2 class="archive__item-title"> Theses </h2>
+    {% break %}
+  {% endif %}
+{% endfor %}
+{% for post in site.publications reversed %}
+  {%if post.publication_type == 'phdthesis'%}
+    {% include archive-single-publication.html %}
+  {% endif %}
+{% endfor %}
+
+{% for post in site.publications reversed %}
+  {%if post.publication_type == 'inbook'%}
+<h2 class="archive__item-title"> Book Chapters </h2>
+    {% break %}
+  {% endif %}
+{% endfor %}
+{% for post in site.publications reversed %}
+  {%if post.publication_type == 'inbook'%}
+    {% include archive-single-publication.html %}
+  {% endif %}
+{% endfor %}
 
 
+<h2 class="archive__item-title"> Peer-Reviewed Journal Papers </h2>
+
+{% for post in site.publications reversed %}
+  {%if post.publication_type == 'article'%}
+    {% include archive-single-publication.html %}
+  {% endif %}
+{% endfor %}
+
+<h2 class="archive__item-title"> Peer-Reviewed Conference Papers </h2>
+
+{% for post in site.publications reversed %}
+  {%if post.publication_type == 'inproceedings'%}
+    {% include archive-single-publication.html %}
+  {% endif %}
+{% endfor %}
+
+<h2 class="archive__item-title"> Patents </h2>
+
+{% for post in site.publications reversed %}
+  {%if post.publication_type == 'patent' %}
+    {% include archive-single-publication.html %}
+  {% endif %}
+{% endfor %}
