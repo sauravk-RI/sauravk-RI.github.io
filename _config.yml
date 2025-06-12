@@ -27,7 +27,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Assistant Professor at UWF and <br> Research Scientist at IHMC"
   interests        : "Robotics, Control, Wearable Robotics, Prosthetic Legs, Machine Learning"
-  location         : "Pensacola, FL, USA"
+  location         : "Pensacola, FL"
   employer         : "University of West Florida"
   uri              : # URL
   email            : "sauravk@ieee.org" 
@@ -149,7 +149,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  "google-analytics-4" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
