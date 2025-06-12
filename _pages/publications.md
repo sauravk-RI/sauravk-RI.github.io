@@ -11,56 +11,105 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- Theses -->
-{% assign thesis_posts = site.publications | where: "pubtype", "phdthesis" %}
-{% if thesis_posts.size > 0 %}
+<!-- Check for Theses -->
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'phdthesis' %}
+    {% assign has_thesis = true %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if has_thesis %}
 ## Theses
-{% for post in thesis_posts reversed %}
-  {% include archive-single.html %}
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'phdthesis' %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 {% endif %}
 
-<!-- Book Chapters -->
-{% assign book_posts = site.publications | where: "pubtype", "inbook" %}
-{% if book_posts.size > 0 %}
+<!-- Check for Book Chapters -->
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'inbook' %}
+    {% assign has_books = true %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if has_books %}
 ## Book Chapters
-{% for post in book_posts reversed %}
-  {% include archive-single.html %}
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'inbook' %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 {% endif %}
 
-<!-- Peer-Reviewed Journal Papers -->
-{% assign journal_posts = site.publications | where: "pubtype", "article" %}
-{% if journal_posts.size > 0 %}
+<!-- Check for Journal Articles -->
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'article' %}
+    {% assign has_articles = true %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if has_articles %}
 ## Peer-Reviewed Journal Papers
-{% for post in journal_posts reversed %}
-  {% include archive-single.html %}
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'article' %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 {% endif %}
 
-<!-- Conference Papers -->
-{% assign conference_posts = site.publications | where: "pubtype", "inproceedings" %}
-{% if conference_posts.size > 0 %}
+<!-- Check for Conference Papers -->
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'inproceedings' %}
+    {% assign has_conferences = true %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if has_conferences %}
 ## Peer-Reviewed Conference Papers
-{% for post in conference_posts reversed %}
-  {% include archive-single.html %}
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'inproceedings' %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 {% endif %}
 
-<!-- Patents -->
-{% assign patent_posts = site.publications | where: "pubtype", "patent" %}
-{% if patent_posts.size > 0 %}
+<!-- Check for Patents -->
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'patent' %}
+    {% assign has_patents = true %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if has_patents %}
 ## Patents
-{% for post in patent_posts reversed %}
-  {% include archive-single.html %}
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'patent' %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 {% endif %}
 
-<!-- Uncategorized Publications -->
-{% assign uncategorized = site.publications | where_exp: "item", "item.pubtype == nil or item.pubtype == ''" %}
-{% if uncategorized.size > 0 %}
+<!-- Show uncategorized publications -->
+{% assign has_uncategorized = false %}
+{% for post in site.publications reversed %}
+  {% unless post.pubtype %}
+    {% assign has_uncategorized = true %}
+    {% break %}
+  {% endunless %}
+{% endfor %}
+
+{% if has_uncategorized %}
 ## Other Publications
-{% for post in uncategorized reversed %}
-  {% include archive-single.html %}
+{% for post in site.publications reversed %}
+  {% unless post.pubtype %}
+    {% include archive-single.html %}
+  {% endunless %}
 {% endfor %}
 {% endif %}
