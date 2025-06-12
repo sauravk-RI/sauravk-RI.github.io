@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/2020-11-01-ESC-for-Prosthetic-Legs
 date: 2020-11-01
 venue: 'IEEE Transactions on Control Systems Technology'
+publication_type: 'article'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://ieeexplore.ieee.org/document/8790970'
 citation: '<b>Saurav Kumar</b>, Alireza Mohammadi, David Quintero, Siavash Rezazadeh, Nicholas Gans, Robert D. Gregg. &quot;Extremum Seeking Control for Model-Free Auto-Tuning of Powered Prosthetic Legs.&quot; <i>IEEE Transactions on Control Systems Technology</i>. 1(1).'
