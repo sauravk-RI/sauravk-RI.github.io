@@ -2,7 +2,7 @@
 title: "Extremum Seeking Control for Model-Free Auto-Tuning of Powered Prosthetic Legs"
 collection: publications
 category: manuscripts
-permalink: /publication/2020-11-ESC for Prosthetic Legs
+permalink: /publication/2020-11-01 ESC for Prosthetic Legs
 date: 2020-11-01
 venue: 'IEEE Transactions on Control Systems Technology'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
